@@ -1,6 +1,6 @@
-# tronj
+# litej
 
-The TRON client library.
+The LITE client library.
 
 Tronj document: https://tronjdocument.readthedocs.io/en/latest/
 
