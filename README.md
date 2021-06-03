@@ -1,10 +1,10 @@
-# tronj
+# litej
 
-Tronj is a lightweight SDK that includes libraries for working with TRON system contracts and smart contracts.
+Litej is a lightweight SDK that includes libraries for working with LITE system contracts and smart contracts.
 
-Tronj makes it easy to build TRON applications with java.
+Litej makes it easy to build TRON applications with java.
 
-Tronj document: https://tronjdocument.readthedocs.io/en/latest/
+Litej document: https://litejdocument.readthedocs.io/en/latest/
 
 ## How to use
 
@@ -15,7 +15,7 @@ Add repo setting:
 ```groovy
 repositories {
     maven {
-        url  "https://dl.bintray.com/tronj/tronj"
+        url  "https://dl.bintray.com/litej/litej"
     }
 }
 ```
@@ -27,9 +27,9 @@ dependencies {
     // protobuf & grpc
     implementation 'com.google.protobuf:protobuf-java:3.11.0'
 
-    implementation 'org.tron.tronj:abi:0.1.2'
-    implementation 'org.tron.tronj:client:0.1.2'
-    implementation 'org.tron.tronj:utils:0.1.2'
+    implementation 'org.tron.litej:abi:0.1.2'
+    implementation 'org.tron.litej:client:0.1.2'
+    implementation 'org.tron.litej:utils:0.1.2'
 
     implementation 'com.google.guava:guava:28.0-jre'
 }
@@ -39,19 +39,19 @@ dependencies {
 
 ```xml
 <dependency>
-  <groupId>org.tron.tronj</groupId>
+  <groupId>org.lite.litej</groupId>
   <artifactId>abi</artifactId>
   <version>0.1.2</version>
   <type>pom</type>
 </dependency>
 <dependency>
-  <groupId>org.tron.tronj</groupId>
+  <groupId>org.lite.litej</groupId>
   <artifactId>utils</artifactId>
   <version>0.1.2</version>
   <type>pom</type>
 </dependency>
 <dependency>
-  <groupId>org.tron.tronj</groupId>
+  <groupId>org.lite.litej</groupId>
   <artifactId>client</artifactId>
   <version>0.1.2</version>
   <type>pom</type>
@@ -129,5 +129,5 @@ gpg --verify abi-0.1.2.jar.asc abi-0.1.2.jar
 
 gpg: Signature made Mon Dec 28 11:51:48 2020 CST
 gpg:                using RSA key 76C182C1E1269F494C2315FEA825D8D6E8B49016
-gpg: Good signature from "tronj <tronjsdk@gmail.com>" [ultimate]
+gpg: Good signature from "litej <litejsdk@lite.llc>" [ultimate]
 ```
