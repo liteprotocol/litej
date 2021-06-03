@@ -2,7 +2,7 @@
 
 Litej is a lightweight SDK that includes libraries for working with LITE system contracts and smart contracts.
 
-Litej makes it easy to build TRON applications with java.
+Litej makes it easy to build LITE applications with java.
 
 Litej document: https://litejdocument.readthedocs.io/en/latest/
 
